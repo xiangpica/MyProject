@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/drawer_banner"
+        android:layout_centerVertical="true" />
+
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp"
+            android:src="@drawable/drawer_ic_collections"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="5px" />
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:layout_marginLeft="15dp"
+            android:textColor="#666666"
+            android:textSize="16sp"
+            android:text="@string/title_section1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/Imagebutton2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp"
+            android:src="@drawable/drawer_ic_settings"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="5px" />
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:layout_marginLeft="15dp"
+            android:textColor="#666666"
+            android:textSize="16sp"
+            android:text="@string/title_section2"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/Imagebutton3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/linear5"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp"
+            android:src="@drawable/drawer_ic_feedback"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="5px" />
+
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:layout_marginLeft="15dp"
+            android:textColor="#666666"
+            android:textSize="16sp"
+            android:text="@string/title_section3"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/Imagebutton4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/linear6"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp"
+            android:src="@drawable/drawer_ic_update"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="5px" />
+
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:layout_marginLeft="15dp"
+            android:textColor="#666666"
+            android:textSize="16sp"
+            android:text="@string/title_section4"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/Imagebutton5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/linear7"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp"
+            android:src="@drawable/drawer_ic_about"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="5px" />
+
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:layout_marginLeft="15dp"
+            android:textColor="#666666"
+            android:textSize="16sp"
+            android:text="@string/title_section5"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/Imagebutton6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/linear8"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp"
+            android:src="@drawable/drawer_ic_about"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="5px" />
+
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:layout_marginLeft="15dp"
+            android:textColor="#666666"
+            android:textSize="16sp"
+            android:text="@string/title_section7"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/imagebutton7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+
+</LinearLayout>

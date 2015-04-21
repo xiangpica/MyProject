@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_appstore"
+        android:title="商店"
+        android:icon="@drawable/ic_action_appstore"
+        android:showAsAction="always"
+        app:showAsAction="always"
+         />
+
+    <item
+        android:id="@+id/action_history"
+        android:icon="@drawable/button_title_history_detail"
+        android:title="等待"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/abc_ic_search_api_holo_light"
+        android:title="搜索"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_download"
+        android:icon="@drawable/button_title_download_detail"
+        android:title="下载"
+        android:showAsAction="never"
+        app:showAsAction="always"
+        />
+</menu>
